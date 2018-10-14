@@ -1,0 +1,44 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "QR Code reader for event organization",
+  "productName": "Spectrum app",
+  "cordovaId": "org.spectrum.com",
+  "author": "Gabriel de Souza Climaco <gabrielsclimaco@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@websanova/vue-auth": "^2.21.14-beta",
+    "axios": "^0.18.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "vue-axios": "^2.1.4",
+    "vue-i18n": "^7.3.3",
+    "vuejs-logger": "^1.5.3",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-vue": "^4.3.0",
+    "quasar-cli": "^0.17.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
