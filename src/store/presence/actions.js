@@ -24,14 +24,7 @@ export const getPresence = async (_, id) => {
   }
 };
 
-export const createPresence = async (_, presence) => {
-  try {
-    await presenceApi.create(presence);
-  } catch (err) {
-    Vue.$log.error(err);
-    throw err;
-  }
-};
+export const createPresence = async (_, presence) => presenceApi.create(presence);
 
 export const updatePresence = async (_, { id, presence }) => {
   try {

@@ -17,7 +17,8 @@ module.exports = {
   globals: {
     'ga': true, // Google Analytics
     'cordova': true,
-    '__statics': true
+    '__statics': true,
+    'QRScanner': true,
   },
   // add your custom rules here
   'rules': {

@@ -7,6 +7,7 @@ module.exports = function (ctx) {
       'i18n',
       'axios',
       'logger',
+      'moment',
       'vue-auth',
       'vuelidate',
     ],
@@ -70,6 +71,7 @@ module.exports = function (ctx) {
         'QBtn',
         'QField',
         'QInput',
+        'QSelect',
         'QCard',
         'QCardMain',
         'QCardSeparator',
@@ -79,8 +81,10 @@ module.exports = function (ctx) {
       ],
       // Quasar plugins
       plugins: [
-        'Notify'
-      ]
+        'Notify',
+        'Loading',
+        'Dialog',
+      ],
       // iconSet: ctx.theme.mat ? 'material-icons' : 'ionicons'
       // i18n: 'de' // Quasar language
     },
