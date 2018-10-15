@@ -4,6 +4,11 @@ q-layout(view="lHh Lpr lFf").home
     img(src='statics/logo.png').logo
     q-toolbar-title
       | Spectrum
+    q-btn(
+      round
+      icon='exit_to_app'
+      @click='$auth.logout()'
+      )
   q-page-container.container
     q-field(label='Evento').q-pa-md
       q-select(

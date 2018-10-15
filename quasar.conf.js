@@ -134,7 +134,8 @@ module.exports = function (ctx) {
       }
     },
     cordova: {
-      // id: 'org.cordova.quasar.app'
+      id: 'org.spectrum.com',
+      version: '1.0.0',
     },
     electron: {
       // bundler: 'builder', // or 'packager'

@@ -3,7 +3,7 @@ q-layout(view="lHh Lpr lFf")
   q-page-container
     q-page#login
       img(src='statics/logo.png').logo
-      span.title.q-pb-md Spectrum Admin
+      span.title.q-pb-md Spectrum App
       q-card.login-card
         q-card-main
           form(@submit.prevent='submit')
