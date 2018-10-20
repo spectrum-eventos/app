@@ -135,7 +135,7 @@ module.exports = function (ctx) {
     },
     cordova: {
       id: 'org.spectrum.com',
-      version: '1.0.0',
+      version: '1.0.1',
     },
     electron: {
       // bundler: 'builder', // or 'packager'
