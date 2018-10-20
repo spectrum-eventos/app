@@ -161,9 +161,12 @@ export default {
         });
       } catch (err) {
         this.$log.error(err);
+        const message = err.response.data.errors[0] === 'Name já está em uso'
+          ? `A presença de ${name} já foi confirmada nessa chamada`
+          : 'Erro ao confirmar presença';
         this.$q.notify({
           type: 'negative',
-          message: 'Erro ao confirmar presença',
+          message,
           timout: 1500,
         });
       }
